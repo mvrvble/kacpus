@@ -36,9 +36,7 @@
 <body>
     <h1>Najlepsze życzenia dla Ciebie!</h1>
     <p>
-        Kochanie, chciałam przygotować coś wyjątkowego, aby pokazać, jak wiele dla mnie znaczysz.  
-        Mam nadzieję, że ta niespodzianka wywoła uśmiech na Twojej twarzy.  
-        Jesteś moim największym skarbem. Kocham Cię!
+        siena byqu
     </p>
     <a href="prezent.pdf" target="_blank"> <!-- Link do pliku PDF -->
         <img src="nasze-zdjecie.jpg" alt="Nasze wspólne zdjęcie"> <!-- Zdjęcie -->
