@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prezent dla Ciebie</title>
-    <style>
         body {
             background-color: #03468F; /* Tło strony */
             color: white; /* Kolor tekstu */
