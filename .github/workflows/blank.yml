@@ -1,0 +1,88 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prezent dla Ciebie</title>
+    <style>
+        body {
+            background-color: #03468F; /* Tło strony */
+            color: white; /* Kolor tekstu */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 3em; /* Większa czcionka dla tytułu */
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        p {
+            font-size: 1.2em; /* Mniejsza czcionka dla treści */
+            margin: 10px 20px;
+        }
+        img {
+            width: 300px; /* Dopasowanie rozmiaru zdjęcia */
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px; /* Zaokrąglenie rogów (opcjonalne) */
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Najlepsze życzenia dla Ciebie!</h1>
+    <p>
+        Kochanie, chciałam przygotować coś wyjątkowego, aby pokazać, jak wiele dla mnie znaczysz.  
+        Mam nadzieję, że ta niespodzianka wywoła uśmiech na Twojej twarzy.  
+        Jesteś moim największym skarbem. Kocham Cię!
+    </p>
+    <a href="prezent.pdf" target="_blank"> <!-- Link do pliku PDF -->
+        <img src="nasze-zdjecie.jpg" alt="Nasze wspólne zdjęcie"> <!-- Zdjęcie -->
+    </a>
+</body>
+</html>
+
+git remote add origin https://github.com/mvrvble/kacpus.git
+git push -u origin main
